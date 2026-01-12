@@ -17,7 +17,7 @@ and provides a complete, end-to-end workflow for the design, optimization, and r
 
 This work presents a data-driven framework for optimizing lattice beam cross-sections under linear elastic loading. Beam cross-sections are parameterized using B-spline curves and optimized in a learned latent space obtained via a variational autoencoder (VAE).
 
-Direct optimization in the B-spline space is challenging due to high dimensionality and geometric validity constraints. To address this, a VAE is trained on datasets of both valid and invalid cross-section shapes, enabling it to implicitly learn manufacturable geometries. The resulting latent space is smooth, low-dimensional, and well-suited for gradient-based optimization.
+Direct optimization in the B-spline space is challenging due to high dimensionality and geometric validity constraints. To address this, a VAE is trained on datasets of both valid and invalid cross-section shapes, enabling it to implicitly learn valid geometries. The resulting latent space is smooth, low-dimensional, and well-suited for gradient-based optimization.
 
 Optimized latent variables are decoded back into B-spline representations and used to generate watertight STL files for additive manufacturing, enabling a fully digital design-to-production workflow.
 
