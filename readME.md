@@ -39,7 +39,7 @@ This script allows you to:
   - Spline degree (`k`)
 - Generate datasets containing both valid and invalid cross-section shapes
 - Specify VAE architecture and training parameters
-- Train a VAE that maps between B-spline control points and a compact latent space
+- Train a VAE that maps B-spline control points and cross-section properties to a compact latent space
 
 **Output:**  
 A trained VAE model whose decoder produces valid, manufacturable B-spline cross-sections.
@@ -54,8 +54,9 @@ This notebook allows you to:
 - Load a previously trained VAE model
 - Define structural optimization problems:
   - Single beams
-  - Frames
+  - Three beams
   - Lattice structures
+  - More
 - Specify boundary conditions, loading, and volume constraints
 - Perform gradient-based optimization directly in the latent space
 - Decode optimized latent variables into B-spline cross-sections
