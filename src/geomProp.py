@@ -203,7 +203,7 @@ class GeomProperties:
        
         
         # Compute angles for the 3 interior control points C1, C2, C3 (indices 2, 3, 4 in extended_cp)
-        for i in range(2, 5): 
+        for i in range(1, extended_cp.shape[0] - 1): 
             p_prev = extended_cp[i - 1] # C0 for C1, C1 for C2, C2 for C3
             p_curr = extended_cp[i]     # C1, C2, C3
             p_next = extended_cp[i + 1] # C2 for C1, C3 for C2, C4 for C3
