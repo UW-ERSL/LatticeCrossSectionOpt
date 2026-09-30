@@ -1,11 +1,12 @@
-# Optimizing the Cross-Sections of Lattice Structures Using Variational Autoencoders
+# [Optimizing the Cross-Sections of Lattice Structures Using Variational Autoencoders](https://ssrn.com/abstract=6128827)
+
 
 **Akshay Kumar**, **Saketh Sridhara**, **Krishnan Suresh**  
 Department of Mechanical Engineering, University of Wisconsin–Madison
 
 This repository accompanies the paper:
 
-> *Optimizing the Cross-Sections of Lattice Structures Using Variational Autoencoders*
+> *[Optimizing the Cross-Sections of Lattice Structures Using Variational Autoencoders](https://ssrn.com/abstract=6128827)*
 
 and provides a complete, end-to-end workflow for the design, optimization, and reconstruction of lattice structures with free-form, manufacturable beam cross-sections.
 
